@@ -1,0 +1,68 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+input{
+    border:none;
+    width: 80%;
+}
+.input_field_container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid black;
+    width: 360px;
+    border-radius: 0.3rem;
+    padding: 0.2rem 0.4rem;
+    box-sizing: border-box;
+}
+.input_field{
+    flex: 1;
+    border: none;
+    outline: none;
+    padding: 0.2rem;
+    margin-left: .4rem;
+}
+button{
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    margin-left: 0.5rem;
+}
+.material-symbols-outlined {
+    font-size: 20px;
+    color: #f4eeee;
+    background-color: black;
+    border-radius: 0.3rem;
+    line-height: 1;
+}
+.task_container{
+    margin-top: 1rem;
+    align-content: space-between;
+}
+.task{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 0.3rem;
+    padding: 0.2rem 0.4rem;
+    box-sizing: border-box;
+    width: 100%;
+    gap: 0.5rem;
+    justify-content: space-between;
+}
+.task span{
+    text-decoration: underline;
+    text-decoration-color: rgb(90, 70, 70);          /* 🎨 Change the underline color */
+    text-decoration-thickness: 2px;      /* 📏 Make the underline thicker */
+    text-underline-offset: 4px;          /* 📏 Move the underline down */
+    flex: 1;
+    overflow-wrap: break-word;
+    white-space: normal;
+    text-align: left;
+    display: block;
+}
